@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locomotive Scroll</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.0/dist/locomotive-scroll.css">
+    <link rel="icon" href="./flaticon.ico">
+</head>
+
+<body>
+
+    <div data-scroll-container="" class="main">
+        <section data-scroll-section="">
+            <img src="earth.png">
+            <div class="typewriter">
+                <h1 data-scroll="">Radically mind-blowing scroll!</h1>
+            </div>
+        </section>
+        <section data-scroll-section="">
+            <div>
+                <h2 data-scroll="">Lorem ipsum dolor sit amet.</h2 data-scroll="">
+                <p data-scroll-direction="horizontal" data-scroll="" data-scroll-speed="1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                    quibusdam adipisci hic, labore
+                    voluptatem esse rerum voluptas non dignissimos minima?</p>
+            </div>
+        </section>
+        <section data-scroll-section="">
+            <div>
+                <h2 data-scroll="">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2 data-scroll>
+                <p data-scroll-direction="horizontal" data-scroll="" data-scroll-speed="1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
+                    nobis cum magnam similique saepe eos.
+                    Nobis doloribus deleniti temporibus quod reprehenderit maxime.</p>
+            </div>
+        </section>
+        <section data-scroll-section="">
+            <div>
+                <h2 data-scroll="">Lorem ipsum dolor sit.</h2 data-scroll>
+                <p data-scroll-direction="horizontal" data-scroll="" data-scroll-speed="1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam in
+                    quasi neque ut magni minus id
+                    consequuntur tenetur.</p>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.0/dist/locomotive-scroll.min.js"></script>
+    <script>
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true
+        });
+    </script>
+</body>
+
+</html>
