@@ -3,6 +3,7 @@
     --ff-2:thirtySix-Days;
     --ff-3:San Serif Shaded;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -10,14 +11,17 @@ body {
     font-size: 110%;
     text-align: center;
 }
+
 @font-face {
     font-family: Made of Scars;
     src: url(./MadeofScars-Regular.ttf);
 }
+
 @font-face {
     font-family: thirtySix-Days;
     src: url(./36Days-Regular.ttf);
 }
+
 @font-face {
     font-family: San Serif Shaded;
     src: url(./SansSerifShaded.ttf);
