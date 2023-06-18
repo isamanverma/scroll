@@ -67,20 +67,44 @@ body {
             width: 30em;
             filter: drop-shadow(0.5em 0.5em 5em #fff);
         }
+    }
+
+    section:nth-child(6) {
+        background-color: rgb(33, 20, 4);
 
         button {
-            @include button(#00a51f);
+            @include button(#6b3e0e);
         }
+    }
+
+    section:nth-child(5) {
+        background-color: rgb(120, 70, 5);
+
+        button {
+            @include button(#b48a00);
+        }
+    }
+
+    section:nth-child(4) {
+        background-color: rgb(192, 124, 35);
+    }
+
+    section:nth-child(3) {
+        background-color: rgb(199, 147, 80);
+    }
+
+
+    section:nth-child(2) {
+        background-color: burlywood;
 
     }
 
-    section:nth-child(odd) {
-        background: $clr-pink;
+
+    section:nth-child(1) {
+        background-color: beige;
+
     }
 
-    section:nth-child(even) {
-        background: $clr-blue;
-    }
 }
 
 #shadow-host-companion {
