@@ -1,6 +1,7 @@
 $ff-1: Made of Scars;
 $ff-2: Thirty Six Days;
 $ff-3: San Serif Shaded;
+$ff-4: Baron;
 
 $clr-pink: #cb5ad1;
 $clr-blue: #54cadd;
@@ -25,5 +26,11 @@ $timing: 2s;
 @font-face {
     font-family: San Serif Shaded;
     src: url(../fonts/SansSerifShaded.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Baron;
+    src: url(../fonts/Baron.otf);
     font-display: swap;
 }
