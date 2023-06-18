@@ -38,6 +38,10 @@
   src: url(../fonts/SansSerifShaded.ttf);
   font-display: swap;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -57,7 +61,6 @@ body section h1 {
 }
 body section h2 {
   font-size: 200%;
-  text-wrap: balance;
   margin: 0;
 }
 body section p {
@@ -68,6 +71,30 @@ body section p {
 body section img {
   width: 30em;
   filter: drop-shadow(0.5em 0.5em 5em #fff);
+}
+body section button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+body section button:hover {
+  background-color: #00a51f;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+body section button:active {
+  transform: translateY(-1px);
 }
 body section:nth-child(odd) {
   background: #cb5ad1;
