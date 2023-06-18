@@ -87,7 +87,7 @@ body {
         color: #000;
 
         button {
-            @include button(#6b3e0e);
+            @include button(#333333);
         }
     }
 
@@ -95,7 +95,7 @@ body {
         background-color: #999999;
 
         button {
-            @include button(#b48a00);
+            @include button(#666666);
         }
     }
 
