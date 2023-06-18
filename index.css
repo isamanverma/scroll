@@ -84,11 +84,11 @@ section>img{
     filter: drop-shadow(0.5em 0.5em 5em #fff);
 }
 section:nth-child(odd) {
-    background: rgb(203, 90, 209);
+    background: #cb5ad1;
 }
 
 section:nth-child(even) {
-    background: rgb(84, 202, 221);
+    background: #54cadd;
 }
 
 #shadow-host-companion {

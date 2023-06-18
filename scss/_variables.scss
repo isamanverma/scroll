@@ -1,0 +1,24 @@
+$ff-1: Made of Scars;
+$ff-2: Thirty Six Days;
+$ff-3: San Serif Shaded;
+
+$clr-pink: #cb5ad1;
+$clr-blue: #54cadd;
+
+@font-face {
+    font-family: Made of Scars;
+    src: url(../fonts/MadeofScars-Regular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Thirty Six Days;
+    src: url(../fonts/36Days-Regular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: San Serif Shaded;
+    src: url(../fonts/SansSerifShaded.ttf);
+    font-display: swap;
+}
