@@ -41,27 +41,21 @@ body {
     text-align: center;
     color: whitesmoke;
 
-    @media (max-width:767px) {
-        h1 {
-            font-size: 100%;
-        }
-
-        img {
-            max-width: 80%;
-        }
-
-    }
-
     section {
         display: grid;
         place-items: center;
         margin: 0;
         height: 100vh;
 
+        .video-bg {
+            max-width: 100%;
+            display: block;
+        }
+
         h1 {
             text-transform: uppercase;
             font-family: $ff-4;
-            font-size: 4em;
+            font-size: 3rem;
         }
 
         h2 {

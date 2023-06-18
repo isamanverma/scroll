@@ -30,24 +30,20 @@ body {
   text-align: center;
   color: whitesmoke;
 }
-@media (max-width: 767px) {
-  body h1 {
-    font-size: 100%;
-  }
-  body img {
-    max-width: 80%;
-  }
-}
 body section {
   display: grid;
   place-items: center;
   margin: 0;
   height: 100vh;
 }
+body section .video-bg {
+  max-width: 100%;
+  display: block;
+}
 body section h1 {
   text-transform: uppercase;
   font-family: Baron;
-  font-size: 4em;
+  font-size: 3rem;
 }
 body section h2 {
   font-size: 200%;
