@@ -85,7 +85,7 @@ body section:nth-child(6) button {
   outline: none;
 }
 body section:nth-child(6) button:hover {
-  background-color: #6b3e0e;
+  background-color: #333333;
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
   color: #fff;
   transform: translateY(-7px);
@@ -112,7 +112,7 @@ body section:nth-child(5) button {
   outline: none;
 }
 body section:nth-child(5) button:hover {
-  background-color: #b48a00;
+  background-color: #666666;
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
   color: #fff;
   transform: translateY(-7px);
