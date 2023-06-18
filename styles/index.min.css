@@ -58,8 +58,15 @@ body section h2 {
   font-size: 200%;
   margin: 0;
 }
+@media screen and (max-width: 767px) {
+  body section h2 {
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+}
 body section p {
-  max-width: 50%;
+  max-width: 80%;
   opacity: 0.5;
   margin: 1em auto;
 }
