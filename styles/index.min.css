@@ -160,6 +160,11 @@ section:nth-child(6) .spline-description h2 {
   text-align: left;
   margin-left: 3em;
 }
+@media screen and (max-width: 767px) {
+  section:nth-child(6) .spline-description h2 {
+    margin-left: 1em;
+  }
+}
 section:nth-child(6) .spline-description sub {
   font-family: EB Garamond;
   font-style: italic;

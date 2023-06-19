@@ -141,6 +141,10 @@ section:nth-child(6) {
             font-family: $ff-4;
             text-align: left;
             margin-left: 3em;
+
+            @media screen and (max-width:767px) {
+                margin-left: 1em;
+            }
         }
 
         sub {
