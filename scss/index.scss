@@ -60,7 +60,7 @@ body {
             display: block;
 
             @media screen and (max-width:767px) {
-                max-width: 180%;
+                max-width: 100%;
             }
         }
 
@@ -87,53 +87,78 @@ body {
             margin: 1em auto;
         }
 
-        img {
-            width: 30em;
-            filter: drop-shadow(0.5em 0.5em 5em #fff);
-
-            @media screen and (max-width:767px) {
-                width: 100%;
-            }
-        }
     }
-
-    section:nth-child(6) {
-        background-color: #e6e6e6;
-        color: #000;
-
-        button {
-            @include button(#333333);
-        }
-    }
-
-    section:nth-child(5) {
-        background-color: #999999;
-
-        button {
-            @include button(#666666);
-        }
-    }
-
-    section:nth-child(4) {
-        background-color: #666666;
-    }
-
-    section:nth-child(3) {
-        background-color: #333333;
-    }
+}
 
 
-    section:nth-child(2) {
-        background-color: #1a1a1a;
 
-    }
+section:nth-child(1) {
+    background-color: #000000;
+}
 
-
-    section:nth-child(1) {
-        background-color: #000000;
-    }
+section:nth-child(2) {
+    background-color: #1a1a1a;
 
 }
+
+section:nth-child(3) {
+    background-color: #333333;
+}
+
+section:nth-child(4) {
+    background-color: #666666;
+}
+
+
+
+section:nth-child(5) {
+    background-color: #999999;
+
+    button {
+        @include button(#666666);
+    }
+}
+
+
+section:nth-child(6) {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+
+    @media screen and (max-width:767px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10vh;
+    }
+
+    .spline-description {
+        max-width: 50%;
+
+        @media screen and (max-width:767px) {
+            max-width: 90%;
+            order: 2;
+        }
+    }
+
+    .spline-watermark {
+        opacity: 0;
+        display: none;
+    }
+
+    iframe {
+        width: 600px;
+        aspect-ratio: 1;
+
+        @media screen and (max-width:767px) {
+            max-width: 95%;
+            order: 1;
+        }
+    }
+}
+
+
 
 #shadow-host-companion {
     display: none;
