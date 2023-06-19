@@ -46,6 +46,30 @@ body section {
   margin: 0;
   height: 100vh;
 }
+body section div {
+  max-width: 80%;
+}
+body section div h2 {
+  font-size: 200%;
+  margin: 0;
+}
+@media screen and (max-width: 767px) {
+  body section div h2 {
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+}
+body section div p {
+  width: 50%;
+  opacity: 0.5;
+  margin: 1em auto;
+}
+@media screen and (max-width: 767px) {
+  body section div p {
+    width: 80%;
+  }
+}
 body section .video-bg {
   max-width: 100%;
   display: block;
@@ -59,22 +83,6 @@ body section h1 {
   text-transform: uppercase;
   font-family: Baron;
   font-size: 3rem;
-}
-body section h2 {
-  font-size: 200%;
-  margin: 0;
-}
-@media screen and (max-width: 767px) {
-  body section h2 {
-    max-width: 80%;
-    text-align: center;
-    margin: auto;
-  }
-}
-body section p {
-  max-width: 80%;
-  opacity: 0.5;
-  margin: 1em auto;
 }
 
 section:nth-child(1) {
@@ -164,6 +172,10 @@ section:nth-child(6) .spline-description h2 {
   section:nth-child(6) .spline-description h2 {
     margin-left: 1em;
   }
+}
+section:nth-child(6) .spline-description p {
+  max-width: 80%;
+  margin: 1em 5em;
 }
 section:nth-child(6) .spline-description sub {
   font-family: EB Garamond;
