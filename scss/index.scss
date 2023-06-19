@@ -1,4 +1,5 @@
 @import "./variables";
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond:regular,500,600,700,800,italic,500italic,600italic,700italic,800italic);
 
 @mixin button($color) {
     padding: 1.3em 3em;
@@ -136,15 +137,22 @@ section:nth-child(6) {
     .spline-description {
         max-width: 50%;
 
+        h2 {
+            font-family: $ff-4;
+            text-align: left;
+            margin-left: 3em;
+        }
+
+        sub {
+            font-family: EB Garamond;
+            font-style: italic;
+            font-weight: 400;
+        }
+
         @media screen and (max-width:767px) {
             max-width: 90%;
             order: 2;
         }
-    }
-
-    .spline-watermark {
-        opacity: 0;
-        display: none;
     }
 
     iframe {
