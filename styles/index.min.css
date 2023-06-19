@@ -75,6 +75,11 @@ body section img {
   -webkit-filter: drop-shadow(0.5em 0.5em 5em #fff);
           filter: drop-shadow(0.5em 0.5em 5em #fff);
 }
+@media screen and (max-width: 767px) {
+  body section img {
+    width: 100%;
+  }
+}
 body section:nth-child(6) {
   background-color: #e6e6e6;
   color: #000;
