@@ -49,12 +49,17 @@ body {
     font-size: 1.1rem;
     text-align: center;
     color: whitesmoke;
+    background: #000;
 
     section {
         display: grid;
         place-items: center;
         margin: 0;
         height: 100vh;
+
+        button {
+            @include button(silver);
+        }
 
         div {
             max-width: 80%;
@@ -80,6 +85,20 @@ body {
                 }
 
             }
+
+            .big-title {
+                color: transparent;
+                font-size: 10rem;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 1;
+                overflow: hidden;
+
+                background-image: url(../fluid-2.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-clip: text;
+            }
         }
 
         .video-bg {
@@ -92,9 +111,20 @@ body {
         }
 
         h1 {
+            margin: 0;
             text-transform: uppercase;
             font-family: $ff-4;
-            font-size: 3rem;
+            font-size: 8em;
+            mask-image: linear-gradient(rgba(0 0 0/1),
+                    rgba(0 0 0/0.3),
+                    rgba(0 0 0/0),
+
+                );
+
+            @media screen and (max-width:767px) {
+                font-size: 4em;
+
+            }
         }
 
 
@@ -103,36 +133,7 @@ body {
 
 
 
-section:nth-child(1) {
-    background-color: #000000;
-}
-
 section:nth-child(2) {
-    background-color: #1a1a1a;
-
-}
-
-section:nth-child(3) {
-    background-color: #333333;
-}
-
-section:nth-child(4) {
-    background-color: #666666;
-}
-
-
-
-section:nth-child(5) {
-    background-color: #999999;
-
-    button {
-        @include button(#666666);
-    }
-}
-
-
-section:nth-child(6) {
-    background-color: #000000;
     color: #fff;
     display: flex;
     flex-direction: row;
@@ -184,8 +185,6 @@ section:nth-child(6) {
         }
     }
 }
-
-
 
 #shadow-host-companion {
     display: none;
