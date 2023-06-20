@@ -113,6 +113,12 @@ body section div .big-title {
   -webkit-background-clip: text;
           background-clip: text;
 }
+@media screen and (max-width: 767px) {
+  body section div .big-title {
+    font-size: 3em;
+    margin: 0;
+  }
+}
 body section .video-bg {
   max-width: 100%;
   display: block;
@@ -134,7 +140,7 @@ body section h1 {
 }
 @media screen and (max-width: 767px) {
   body section h1 {
-    font-size: 4em;
+    font-size: 3em;
   }
 }
 
@@ -179,6 +185,12 @@ section:nth-child(2) .spline-description h2 {
 section:nth-child(2) .spline-description p {
   max-width: 80%;
   margin: 1em 5em;
+  text-align: left;
+}
+@media screen and (max-width: 767px) {
+  section:nth-child(2) .spline-description p {
+    margin-left: 1em;
+  }
 }
 section:nth-child(2) .spline-description sub {
   font-family: EB Garamond;
