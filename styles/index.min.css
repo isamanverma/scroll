@@ -115,7 +115,13 @@ body section div .big-title {
 }
 @media screen and (max-width: 767px) {
   body section div .big-title {
+    all: unset;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
     font-size: 3em;
+    font-weight: bold;
     margin: 0;
   }
 }

@@ -100,7 +100,14 @@ body {
                 background-clip: text;
 
                 @media screen and (max-width:767px) {
+                    all: unset;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 1;
+                    overflow: hidden;
+
                     font-size: 3em;
+                    font-weight: bold;
                     margin: 0;
                 }
             }
