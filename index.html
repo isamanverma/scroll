@@ -25,7 +25,7 @@
                 <source src="glass-bubble.mp4" type="video/mp4">
             </video>
 
-            <h1 data-scroll="">Tranquility</h1>
+            <h1 class="site-title" data-scroll="">Tranquility</h1>
 
         </section>
 
@@ -53,15 +53,28 @@
                     voluptatem esse rerum voluptas non dignissimos minima?</p>
             </div>
         </section>
-        <section data-scroll-section="">
+
+        <section data-scroll-section="" class="typeit">
             <div>
-                <h2 data-scroll="">Lorem, ipsum dolor sit amet.</h2 data-scroll>
+                <h2 class="typeit-header" data-scroll=""></h2 data-scroll>
                 <p data-scroll-direction="horizontal" data-scroll="" data-scroll-speed="1">Lorem ipsum dolor sit amet
                     consectetur, adipisicing elit. Nihil
                     nobis cum magnam similique saepe eos.
                     Nobis doloribus deleniti temporibus quod reprehenderit maxime.</p>
             </div>
         </section>
+
+        <section data-scroll-section="" class="clip-path-section">
+            <div class="inner">
+                <h2>Serendipity</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ut nobis praesentium dolor nostrum
+                    atque illo dicta? Cupiditate nostrum rem inventore delectus explicabo iure! Dolores repudiandae
+                    pariatur consectetur. Numquam, eius?</p>
+                <button id="lalala">lalala</button>
+            </div>
+        </section>
+
+
         <section data-scroll-section="">
             <div>
                 <h2 data-scroll="">Lorem ipsum dolor sit.</h2 data-scroll>
@@ -69,10 +82,45 @@
                     consectetur adipisicing elit. Nam in
                     quasi neque ut magni minus id
                     consequuntur tenetur.</p>
+                <div class="css-loader">
+                    <div class="loader">
+                        <div class="container">
+                            <div class="carousel">
+                                <div class="love"></div>
+                                <div class="love"></div>
+                                <div class="love"></div>
+                                <div class="love"></div>
+                                <div class="love"></div>
+                                <div class="love"></div>
+                                <div class="love"></div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="carousel">
+                                <div class="death"></div>
+                                <div class="death"></div>
+                                <div class="death"></div>
+                                <div class="death"></div>
+                                <div class="death"></div>
+                                <div class="death"></div>
+                                <div class="death"></div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="carousel">
+                                <div class="robots"></div>
+                                <div class="robots"></div>
+                                <div class="robots"></div>
+                                <div class="robots"></div>
+                                <div class="robots"></div>
+                                <div class="robots"></div>
+                                <div class="robots"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </section>
-        <section data-scroll-section="">
-            <button>lalala</button>
         </section>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.0/dist/locomotive-scroll.min.js"></script>
@@ -81,6 +129,72 @@
             el: document.querySelector('[data-scroll-container]'),
             smooth: true
         });
+    </script>
+
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script>
+        new TypeIt(".typeit-header", {
+            lifeLike: false,
+            speed: 0
+        })
+
+            .type("L")
+            .pause(209)
+            .type("o")
+            .pause(124)
+            .type("r")
+            .pause(164)
+            .type("e")
+            .pause(140)
+            .type("m")
+            .pause(829)
+            .type(",")
+            .pause(146)
+            .type(" ")
+            .pause(549)
+            .type("i")
+            .pause(213)
+            .type("p")
+            .pause(99)
+            .type("s")
+            .pause(166)
+            .type("u")
+            .pause(237)
+            .type("m")
+            .pause(301)
+            .type(" ")
+            .pause(140)
+            .type("d")
+            .pause(112)
+            .type("o")
+            .pause(174)
+            .type("l")
+            .pause(191)
+            .type("o")
+            .pause(136)
+            .type("r")
+            .pause(237)
+            .type(" ")
+            .pause(271)
+            .type("s")
+            .pause(76)
+            .type("i")
+            .pause(152)
+            .type("t")
+            .pause(129)
+            .type(" ")
+            .pause(130)
+            .type("a")
+            .pause(153)
+            .type("m")
+            .pause(161)
+            .type("e")
+            .pause(190)
+            .type("t")
+            .pause(230)
+            .type(".")
+            .go();
+
     </script>
 
 </body>
