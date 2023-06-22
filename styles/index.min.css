@@ -49,7 +49,7 @@ body section {
 }
 @media screen and (max-width: 767px) {
   body section {
-    height: 70vh;
+    height: 80vh;
   }
 }
 body section div {
@@ -264,7 +264,7 @@ section:nth-child(2) iframe {
 @media screen and (max-width: 767px) {
   .clip-path-section .inner {
     padding: 3em 0em;
-    height: 50%;
+    height: 60%;
   }
 }
 
