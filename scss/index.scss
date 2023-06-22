@@ -57,6 +57,10 @@ body {
         margin: 0;
         height: 100vh;
 
+        @media screen and (max-width:767px) {
+            height: 0vh;
+        }
+
         div {
             max-width: 80%;
 
@@ -83,6 +87,7 @@ body {
             }
 
             .big-title {
+                background-color: white;
                 color: transparent;
                 font-size: 10rem;
                 display: -webkit-box;
@@ -210,6 +215,10 @@ section:nth-child(2) {
 
     h2 {
         font-size: 7rem;
+
+        @media screen and (max-width:767px) {
+            font-size: 3rem;
+        }
     }
 
     &:hover .inner {
@@ -224,6 +233,11 @@ section:nth-child(2) {
         background-color: white;
         clip-path: circle(0% at 0% 0%);
         transition: clip-path 0.75s ease-in;
+
+        @media screen and (max-width:767px) {
+            padding: 3em 0em;
+            height: 50%;
+        }
     }
 }
 
