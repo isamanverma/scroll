@@ -49,7 +49,7 @@ body section {
 }
 @media screen and (max-width: 767px) {
   body section {
-    height: 0vh;
+    height: 70vh;
   }
 }
 body section div {
